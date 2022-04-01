@@ -51,7 +51,7 @@ exclude_patterns = []
 # HTML-тема документации: https://sphinx-themes.org/
 #     pydata_sphinx_theme
 #     sphinx_rtd_theme
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'pydata_sphinx_theme'
 
 # Путь к пользовательским статическим файлам (изображения, стили (*.css) и тд.)
 html_static_path = ['_static']
