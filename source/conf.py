@@ -76,3 +76,7 @@ latex_elements = {
     'fontenc': '\\usepackage[T1,T2A]{fontenc}',
     'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
 }
+
+latex_documents = [
+  ('index', 'PDF.tex', u'PDF', u'Dmitry Ryumin', 'manual'),
+]
