@@ -8,12 +8,29 @@ def sample_function_google(el1: int, el2: int) -> bool:
     """Сумма двух значений
 
     Args:
-        el1: Значение 1
-        el2: Значение 2
+        el1 (int): Значение 1
+        el2 (int): Значение 2
 
     Returns:
-        Сумма двух значений
+        bool: Сумма двух значений
 
+    Examples:
+        >>> sample_function_google(1, 2)
+        3
+
+    .. code-block:: python
+
+        # Сумма двух значений
+        sample_function_google(1, 2) # => 3
+
+    Note:
+        Текст примечания ...
+
+    See Also:
+        Смотреть :ref:`rst-include`
+
+    Raises:
+        ConnectionError: If no available port is found.
     """
 
     return el1 + el2
