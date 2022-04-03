@@ -273,7 +273,7 @@ Copyright |copy| 2015, |DR (TM)| |---| все права защищены.
 
 ----
 
-.. literalinclude:: python/main.py
+.. literalinclude:: ../../sphinx_rtd/main.py
    :language: python
    :emphasize-lines: 13-15,21-23
    :encoding: utf-8
@@ -348,6 +348,8 @@ Copyright |copy| 2015, |DR (TM)| |---| все права защищены.
 Дополнительная строка 1
 
 Дополнительная строка 2
+
+Дополнительная строка 3
 
 Indices and tables
 ==================
