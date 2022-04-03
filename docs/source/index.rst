@@ -6,12 +6,13 @@ Welcome to Sphinx_rtd's documentation!
 ======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
    :caption: Содержание:
 
    example1
    example2
+   test
 
 .. contents:: Содержание файла:
    :depth: 6
@@ -350,6 +351,9 @@ Copyright |copy| 2015, |DR (TM)| |---| все права защищены.
 Дополнительная строка 2
 
 Дополнительная строка 3
+
+:doc:`test`
+   Документация для файла ``test.py``
 
 Indices and tables
 ==================

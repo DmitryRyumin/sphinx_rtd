@@ -14,7 +14,14 @@
 import os  # Взаимодействие с файловой системой
 import sys # Доступ к некоторым переменным и функциям Python
 
-sys.path.insert(0, os.path.abspath('../..'))
+# ######################################################################################################################
+# Информации о пути проекта
+# ######################################################################################################################
+
+PATH_TO_SOURCE = os.path.abspath(os.path.dirname(__file__))
+PATH_TO_ROOT = os.path.join(PATH_TO_SOURCE, '..', '..')
+
+sys.path.insert(0, os.path.abspath(PATH_TO_ROOT))
 
 # ######################################################################################################################
 # Информация о проекте (Project information)
@@ -40,6 +47,7 @@ release = version
 # Расширения: https://www.sphinx-doc.org/en/master/usage/extensions
 extensions = [
     'sphinx.ext.mathjax', # Отображение формул (JavaScript)
+    'sphinx.ext.napoleon', # Документация в стиле NumPy или Google
 ]
 
 # Локализация (язык): https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language
@@ -47,6 +55,9 @@ language = 'ru'
 
 # Директории и файлы, которые следуют исключить при сборке
 exclude_patterns = []
+
+# Минимальная версия Sphinx
+needs_sphinx = '4.5'
 
 # ######################################################################################################################
 # Настройки для генерации документации в формат HTML (Options for HTML output)
@@ -62,6 +73,9 @@ html_static_path = ['_static']
 
 # Favicon документации
 html_favicon = '_static/favicon.ico'
+
+# Логотип документации
+html_logo = "_static/logo.svg"
 
 # Отображение надписи "Собрано при помощи Sphinx ..."
 html_show_sphinx = True
