@@ -1,7 +1,7 @@
-Простая функция
-===============
+Примеры функций каких-то
+========================
 
-.. automodule:: sphinx_rtd.test.sample_function_google
+.. automodule:: sphinx_rtd.test
   :members:
   :undoc-members:
   :show-inheritance:

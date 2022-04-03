@@ -48,6 +48,9 @@ release = version
 extensions = [
     'sphinx.ext.mathjax', # Отображение формул (JavaScript)
     'sphinx.ext.napoleon', # Документация в стиле NumPy или Google
+    # 'sphinx.ext.autodoc', # Документация из строк кода в полуавтоматическом режиме
+    # 'sphinx.ext.autosummary',
+    # 'sphinx.ext.autodoc.typehints',
 ]
 
 # Локализация (язык): https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language

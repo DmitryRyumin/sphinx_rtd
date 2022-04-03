@@ -4,4 +4,4 @@
 >
 > sphinx-quickstart
 >
-> sphinx-build -b html ./docs/source ./docs/build
+> sphinx-build -a -b html ./docs/source ./docs/build
